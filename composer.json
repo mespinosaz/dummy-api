@@ -1,0 +1,17 @@
+{
+    "name": "eebcn/api-example",
+    "autoload": {
+        "psr-4": {
+            "Bcn\\": "src/"
+        }
+    },
+    "require": {
+        "silex/silex": "~1.2",
+        "beberlei/assert": "2.3",
+        "ramsey/uuid": "2.8.0"
+    },
+    "require-dev": {
+        "behat/behat": "3.0.15"
+    },
+    "license": "MIT"
+}
