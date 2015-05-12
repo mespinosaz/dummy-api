@@ -1,5 +1,5 @@
 {
-    "name": "eebcn/api-example",
+    "name": "ebayenterprise-eu/dummy-api",
     "autoload": {
         "psr-4": {
             "Bcn\\": "src/"
