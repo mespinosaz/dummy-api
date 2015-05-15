@@ -1,0 +1,11 @@
+default:
+  suites:
+    default:
+      contexts:
+        - \Bcn\Api\Features\Context\DefaultContext
+      paths:
+        - %paths.base%/src/Api/Features
+      formatter:
+        name: pretty,junit,html
+        parameters:
+          output_path: null,junit,behat_report.html
